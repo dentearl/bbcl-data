@@ -1,0 +1,13 @@
+{
+  "name": "bbcl-data",
+  "version": "1.0.0",
+  "description": "Automated schedule, results, and standings pipeline for Banana Ball Championship League (BBCL)",
+  "type": "module",
+  "main": "scripts/scrapeBBCL.js",
+  "scripts": {
+    "scrape": "node scripts/scrapeBBCL.js"
+  },
+  "keywords": ["bbcl", "banana-ball", "savannah-bananas", "baseball", "schedule", "data"],
+  "author": "Dent Earl",
+  "license": "MIT"
+}

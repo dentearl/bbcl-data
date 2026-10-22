@@ -1,0 +1,79 @@
+{
+  "2026": {
+    "era": "bananabowl_championship",
+    "isStarted": true,
+    "isComplete": true,
+    "seeds": {
+      "1": {
+        "id": 6001,
+        "name": "Savannah Bananas",
+        "shortName": "Bananas"
+      },
+      "2": {
+        "id": 6004,
+        "name": "Texas Tailgaters",
+        "shortName": "Tailgaters"
+      }
+    },
+    "bananaBowl": {
+      "name": "Banana Bowl Championship",
+      "format": "Best of 3",
+      "venue": "Nationals Park, Washington, D.C.",
+      "team1": {
+        "id": 6001,
+        "name": "Savannah Bananas",
+        "shortName": "Bananas",
+        "wins": 1,
+        "isWinner": false,
+        "isEliminated": true
+      },
+      "team2": {
+        "id": 6004,
+        "name": "Texas Tailgaters",
+        "shortName": "Tailgaters",
+        "wins": 2,
+        "isWinner": true,
+        "isEliminated": false
+      },
+      "championId": 6004,
+      "winnerId": 6004,
+      "isStarted": true,
+      "isComplete": true,
+      "games": [
+        {
+          "game": 1,
+          "date": "2026-10-08",
+          "away": "Texas Tailgaters",
+          "home": "Savannah Bananas",
+          "awayScore": 5,
+          "homeScore": 3,
+          "winnerId": 6004,
+          "isFinal": true,
+          "venue": "Nationals Park"
+        },
+        {
+          "game": 2,
+          "date": "2026-10-09",
+          "away": "Texas Tailgaters",
+          "home": "Savannah Bananas",
+          "awayScore": 2,
+          "homeScore": 4,
+          "winnerId": 6001,
+          "isFinal": true,
+          "venue": "Nationals Park"
+        },
+        {
+          "game": 3,
+          "date": "2026-10-10",
+          "away": "Texas Tailgaters",
+          "home": "Savannah Bananas",
+          "awayScore": 4,
+          "homeScore": 2,
+          "winnerId": 6004,
+          "isFinal": true,
+          "venue": "Nationals Park"
+        }
+      ]
+    }
+  }
+}
